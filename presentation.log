@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 FEB 2016 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  13 FEB 2016 20:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -716,24 +716,24 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/font/beamerfontthem
 eserif.sty
 Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
-)
-No file presentation.aux.
+) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -798,7 +798,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 22.
+Package hyperref Info: Link coloring OFF on input line 25.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -808,9 +808,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 22.
-LaTeX Info: Redefining \pageref on input line 22.
-LaTeX Info: Redefining \nameref on input line 22.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
+
+(./presentation.out) (./presentation.out)
 \@outlinefile=\write5
 \openout5 = `presentation.out'.
 
@@ -839,12 +841,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 22.
+LaTeX Info: Redefining \includegraphics on input line 25.
 
-No file presentation.nav.
+(./presentation.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 26.
+(Font)              size <5> substituted on input line 29.
 
 [1
 
@@ -852,6 +854,116 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 [2
 
 ]
+LaTeX Font Info:    Try loading font information for U+msa on input line 54.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 54.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [3
+
+]
+<fig_1.pdf, id=95, 607.26875pt x 265.99374pt>
+File: fig_1.pdf Graphic file (type pdf)
+ <use fig_1.pdf>
+Package pdftex.def Info: fig_1.pdf used on input line 61.
+(pdftex.def)             Requested size: 245.83282pt x 107.67816pt.
+ [4
+
+ <./fig_1.pdf>] <fig_2.png, id=132, 587.19376pt x 298.11375pt>
+File: fig_2.png Graphic file (type png)
+ <use fig_2.png>
+Package pdftex.def Info: fig_2.png used on input line 69.
+(pdftex.def)             Requested size: 245.83282pt x 124.80661pt.
+ [5
+
+ <./fig_2.png>] <fig_3.png, id=160, 577.15625pt x 401.5pt>
+File: fig_3.png Graphic file (type png)
+ <use fig_3.png>
+Package pdftex.def Info: fig_3.png used on input line 77.
+(pdftex.def)             Requested size: 245.83282pt x 171.01813pt.
+ [6
+
+ <./fig_3.png>] <fig_4.png, id=187, 600.2425pt x 303.1325pt>
+File: fig_4.png Graphic file (type png)
+ <use fig_4.png>
+Package pdftex.def Info: fig_4.png used on input line 85.
+(pdftex.def)             Requested size: 245.83282pt x 124.15099pt.
+ [7
+
+ <./fig_4.png>] <fig_5.png, id=215, 431.6125pt x 607.26875pt>
+File: fig_5.png Graphic file (type png)
+ <use fig_5.png>
+Package pdftex.def Info: fig_5.png used on input line 93.
+(pdftex.def)             Requested size: 245.83282pt x 345.87807pt.
+
+Overfull \vbox (142.1494pt too high) detected at line 93
+ []
+
+[8
+
+ <./fig_5.png>] <fig_6.png, id=243, 916.42375pt x 504.88625pt>
+File: fig_6.png Graphic file (type png)
+
+<use fig_6.png>
+Package pdftex.def Info: fig_6.png used on input line 101.
+(pdftex.def)             Requested size: 245.83282pt x 135.43515pt.
+ [9
+
+ <./fig_6.png>]
+<fig_7.png, id=270, 933.4875pt x 691.58376pt>
+File: fig_7.png Graphic file (type png)
+ <use fig_7.png>
+Package pdftex.def Info: fig_7.png used on input line 109.
+(pdftex.def)             Requested size: 245.83282pt x 182.11858pt.
+ [10
+
+ <./fig_7.png>] <fig_8.png, id=297, 684.5575pt x 652.4375pt>
+File: fig_8.png Graphic file (type png)
+ <use fig_8.png>
+Package pdftex.def Info: fig_8.png used on input line 117.
+(pdftex.def)             Requested size: 245.83282pt x 234.2999pt.
+
+Overfull \vbox (30.57123pt too high) detected at line 117
+ []
+
+[11
+
+ <./fig_8.png>] <fig_9.png, id=324, 680.5425pt x 679.53876pt>
+File: fig_9.png Graphic file (type png)
+
+<use fig_9.png>
+Package pdftex.def Info: fig_9.png used on input line 125.
+(pdftex.def)             Requested size: 245.83282pt x 245.47365pt.
+
+Overfull \vbox (41.74498pt too high) detected at line 125
+ []
+
+[12
+
+ <./fig_9.png>] <fig_10.png, id=351, 666.49pt x 647.41875pt>
+File: fig_10.png Graphic file (type png)
+
+<use fig_10.png>
+Package pdftex.def Info: fig_10.png used on input line 133.
+(pdftex.def)             Requested size: 245.83282pt x 238.79039pt.
+
+Overfull \vbox (35.06172pt too high) detected at line 133
+ []
+
+[13
+
+ <./fig_10.png>] <fig_11.png, id=379, 773.89125pt x 365.365pt>
+File: fig_11.png Graphic file (type png)
+
+<use fig_11.png>
+Package pdftex.def Info: fig_11.png used on input line 141.
+(pdftex.def)             Requested size: 245.83282pt x 116.06062pt.
+ [14
+
+ <./fig_11.png>]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -861,41 +973,37 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 144.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 144.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 144.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 144.
+Package rerunfilecheck Info: File `presentation.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
-
-Package rerunfilecheck Warning: File `presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `presentation.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 144.
  ) 
 Here is how much of TeX's memory you used:
- 16394 strings out of 493089
- 314811 string characters out of 6134842
- 383130 words of memory out of 5000000
- 19516 multiletter control sequences out of 15000+600000
- 5450 words of font info for 20 fonts, out of 8000000 for 9000
+ 16616 strings out of 493089
+ 318339 string characters out of 6134842
+ 386533 words of memory out of 5000000
+ 19676 multiletter control sequences out of 15000+600000
+ 8595 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,14n,55p,413b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,55p,456b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on presentation.pdf (2 pages, 36427 bytes).
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+>
+Output written on presentation.pdf (14 pages, 1048209 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
- 66 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 427 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 98 words of extra memory for PDF output out of 10000 (max. 10000000)
 
