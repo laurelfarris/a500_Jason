@@ -3,33 +3,30 @@
 \usepackage{verbatim} % For using /begin{comment}; /end{comment}
 
 \definecolor{mine}{RGB}{155,155,155}
+
+
 \setbeamercolor{normal text}{bg=black, fg=white}
 \setbeamercolor{frametitle}{fg=purple}
 \setbeamercolor{block title}{fg=green}
 \setbeamercolor{itemize item}{fg=mine} % all frames will have red bullets
 \setbeamercolor{enumerate item}{fg=mine} % all frames will have red bullets
-%\useoutertheme{smoothbars}
-\useinnertheme{circles}
 
 \usefonttheme{serif}
 \setbeamerfont{frametitle}{series=\bfseries} % Frame titles should be bold
 
-%\setbeamersize{text margin left=<size>,text margin right=<size>}
+\title{My Seminar Paper}
+\subtitle{ASTR 500}
+\date{11 March 2016}
+\author{Laurel Farris}
 
 \begin{document}
 
 \begin{frame}
-    \frametitle{Title}
-    \begin{columns}[c] %c-centered vertical alignment (t-top centered)
-       \column{.80\linewidth} %left column and width
-         \includegraphics[trim=0 0 200 0]{pluto.png}
-       \column{.30\linewidth} %right column and width
-         Laurel Farris \\ 11/30/15
-    \end{columns}
+    \titlepage
 \end{frame}
 
-\begin{frame}
-    \includegraphics[trim=0 0 0 30,clip,width=\textwidth]{doggy.jpg}
+\begin{frame}{Frame Title}
+    The body of the frame
 \end{frame}
 
 \end{document}
