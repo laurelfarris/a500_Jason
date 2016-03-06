@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.11.14)  5 MAR 2016 13:48
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.11.14)  5 MAR 2016 18:57
 entering extended mode
  %&-line parsing enabled.
 **presentation.tex
@@ -524,26 +524,29 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \verbatim@line=\toks36
 \verbatim@in@stream=\read1
 )
+(/usr/share/texmf/tex/latex/mdwtools/mdwlist.sty
+Package: mdwlist 1996/05/02 1.1 Various list-related things
+)
 (/usr/share/texmf/tex/latex/beamer/themes/font/beamerfontthemeserif.sty
 Package: beamerfontthemeserif 2004/10/07  (rcs-revision 1.3)
 )
 (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 -------------------- Geometry parameters
 paper: user defined
 landscape: --
@@ -583,7 +586,7 @@ driver: pdftex
 
 (1in=72.27pt, 1cm=28.45pt)
 -----------------------
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
  (/usr/share/texmf/tex/latex/hyperref/nameref.sty
 Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
 
@@ -592,8 +595,8 @@ Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
 )
 \c@section@level=\count146
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
  (./presentation.out)
 (./presentation.out)
 \@outlinefile=\write4
@@ -602,19 +605,19 @@ LaTeX Info: Redefining \pageref on input line 29.
  (./presentation.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 33.
+(Font)              size <5> substituted on input line 34.
 
 [1
 
 {/usr/share/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 67.
+LaTeX Font Info:    Try loading font information for U+msa on input line 70.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2002/01/19 v2.2g AMS font definitions
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 67.
+LaTeX Font Info:    Try loading font information for U+msb on input line 70.
 
 (/usr/share/texmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2002/01/19 v2.2g AMS font definitions
@@ -622,14 +625,120 @@ File: umsb.fd 2002/01/19 v2.2g AMS font definitions
 
 ] [4
 
+] [5
+
+] [6
+
+] [7
+
+] [8
+
+] [9
+
 ]
-<fig_1.pdf, id=120, 607.26875pt x 265.99374pt>
+<fig_1.pdf, id=247, 607.26875pt x 265.99374pt>
 File: fig_1.pdf Graphic file (type pdf)
- <use fig_1.pdf> [5
+ <use fig_1.pdf> [10
 
- <./fig_1.pdf>] [6
+ <./fig_1.pdf>] <fig_2.png, id=284, 587.19376pt x 298.11375pt>
+File: fig_2.png Graphic file (type png)
+ <use fig_2.png> [11
+
+ <./fig_2.png>] <fig_3.png, id=311, 577.15625pt x 401.5pt>
+File: fig_3.png Graphic file (type png)
+ <use fig_3.png>
+Overfull \vbox (72.74924pt too high) detected at line 179
+ []
+
+[12
+
+ <./fig_3.png>] [13
+
+] [14
+
+] [15
+
+] [16
+
+] [17
+
+] [18
+
+] [19
+
+] [20
+
+] [21
+
+] [22
+
+] [23
 
 ]
+[24
+
+] [25
+
+] [26
+
+] [27
+
+] <fig_4.png, id=720, 600.2425pt x 303.1325pt>
+File: fig_4.png Graphic file (type png)
+
+<use fig_4.png> [28
+
+ <./fig_4.png>]
+<fig_5.png, id=747, 431.6125pt x 607.26875pt>
+File: fig_5.png Graphic file (type png)
+ <use fig_5.png>
+Overfull \vbox (112.60495pt too high) detected at line 263
+ []
+
+[29
+
+ <./fig_5.png>] <fig_6.png, id=774, 916.42375pt x 504.88625pt>
+File: fig_6.png Graphic file (type png)
+
+<use fig_6.png> [30
+
+ <./fig_6.png>]
+<fig_7.png, id=801, 933.4875pt x 691.58376pt>
+File: fig_7.png Graphic file (type png)
+ <use fig_7.png> [31
+
+ <./fig_7.png>] <fig_8.png, id=829, 684.5575pt x 652.4375pt>
+File: fig_8.png Graphic file (type png)
+ <use fig_8.png>
+Overfull \vbox (1.02678pt too high) detected at line 283
+ []
+
+[32
+
+ <./fig_8.png>] <fig_9.png, id=856, 680.5425pt x 679.53876pt>
+File: fig_9.png Graphic file (type png)
+
+<use fig_9.png>
+Overfull \vbox (12.20053pt too high) detected at line 291
+ []
+
+[33
+
+ <./fig_9.png>] <fig_10.png, id=883, 666.49pt x 647.41875pt>
+File: fig_10.png Graphic file (type png)
+
+<use fig_10.png>
+Overfull \vbox (5.51727pt too high) detected at line 299
+ []
+
+[34
+
+ <./fig_10.png>] <fig_11.png, id=909, 773.89125pt x 365.365pt>
+File: fig_11.png Graphic file (type png)
+
+<use fig_11.png> [35
+
+ <./fig_11.png>]
 \tf@nav=\write5
 \openout5 = `presentation.nav'.
 
@@ -646,21 +755,24 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 7902 strings out of 256214
- 141006 string characters out of 1916999
- 227883 words of memory out of 1500000
- 10938 multiletter control sequences out of 10000+200000
- 10198 words of font info for 39 fonts, out of 1200000 for 2000
+ 8103 strings out of 256214
+ 143112 string characters out of 1916999
+ 228367 words of memory out of 1500000
+ 11063 multiletter control sequences out of 10000+200000
+ 11127 words of font info for 42 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  41i,14n,51p,384b,502s stack positions out of 5000i,500n,6000p,200000b,15000s
-</usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/t
-ype1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1
-/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmti10.pfb></us
-r/share/texmf/fonts/type1/bluesky/ams/msam7.pfb>
-Output written on presentation.pdf (6 pages, 144876 bytes).
+</usr/share/texmf/fonts/type1/bluesky/cm/cmbx10.pfb></usr/share/texmf/fonts/t
+ype1/bluesky/cm/cmbx12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmex10.pfb>
+</usr/share/texmf/fonts/type1/bluesky/cm/cmmi10.pfb></usr/share/texmf/fonts/typ
+e1/bluesky/cm/cmr10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></us
+r/share/texmf/fonts/type1/bluesky/cm/cmr8.pfb></usr/share/texmf/fonts/type1/blu
+esky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/sha
+re/texmf/fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesk
+y/ams/msam7.pfb>
+Output written on presentation.pdf (35 pages, 2106545 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 131072)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 986 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 131072)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
