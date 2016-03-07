@@ -417,18 +417,61 @@ $$ \check{H}_{+}(\mathbf{r},z,\nu) =
 \end{frame}
 
 \begin{frame}{8.1}
+    Green's function:
+    $$ G_{\pm}(|\mathbf{r}-\mathbf{r}'|,z,t-t') $$
+    Characterizes the acoustics of the solar \emph{model}
+    to which helioseismic observations,
+    $\psi(\mathbf{r}',t')$,
+    are applied to accomplish acoustic regressions.
+
+    Computational is a broad, flexible diagnostic,
+    not intended for any one particular model.
+
+    Outlining intuitive concepts used to fashion Green's Functions
+    appropriate for practical diagnostic applications.
 \end{frame}
 
 \begin{frame}{8.2}
+    Acoustic formalism:
+    \begin{itemize}
+        \item Field, $\psi$ is normalized wrt energy flux
+        \item Solar inteior acoustics (in the absense of sources
+            and sinks) is \emph{time-reversal invariant}
+    \end{itemize}
+    Given these two conditions, the same Green's functions characterize
+    the propagation both forward and backward in time between surface
+    $(\mathbf{r}',0,t')$ and source $(\mathbf{r},z,t)$
 \end{frame}
 
-\begin{frame}{8.3}
+\begin{frame}{8.3: Dispersionless acoustics}
+    Pulse propagates in the form of a \emph{wavefront}.
+    Surface location, $\mathbf{r}'$ responds with ripple characterized
+    by the same infinitely sharp temporal profile as the source,
+    but properly attenuated. The Green's function is invarient with
+    respect to both time and horizontal translation.
+    $$ G_{+}(|\mathbf{r}-\mathbf{r}'|,z,t-t') =
+    \delta\left(t-t'-T\left(|\mathbf{r}-\mathbf{r}'|,z\right)\right)
+       f\left(|\mathbf{r}-\mathbf{r}'|,z\right)$$
 \end{frame}
 
 \begin{frame}{8.4}
 \end{frame}
 
 \begin{frame}{8.5}
+    $T$ (travel time) and $f$ (amplitude of pulse) both depend
+    strongly on the sound speed variation with depth.
+    Derive $\Gamma$ (optimal optical path) that satisfies
+    Fermat's principle.
+
+    Obtain $T$!
+\end{frame}
+
+\begin{frame}{8.6}
+    Obtain $f$; acoustic flux must be in proportion to solid angle
+    subtended by the optical paths leading to the boundary of the
+    surface element.
+
+    Acoustic energy flux density: $cf^{2}$
 \end{frame}
 
 \begin{frame}{Figure 7}
@@ -437,33 +480,25 @@ $$ \check{H}_{+}(\mathbf{r},z,\nu) =
     \end{figure}
 \end{frame}
 
-\begin{frame}{8.6}
-\end{frame}
-
 \begin{frame}{8.7}
+    \begin{itemize}
+        \item $\nu>5.5$ mHz absorbed by photosphere upon first
+            encounter after leaving source.
+        \item $\nu<4.5$ mHz reflected from the specular
+            (``mirror-like''). In this case the Green's function
+            is characterized by a sum of $n$ components, where
+            each $n$ is a ``skip'', or reflection from the photosphere
+            (include diagram)
+    \end{itemize}
 \end{frame}
 
 \begin{frame}{8.8}
-\end{frame}
-
-\begin{frame}{8.9}
-\end{frame}
-
-\begin{frame}{8.10: Dispersion}
-    In reality, acoustic waves are \emph{significantly} dispersed
-    near the photosphere.
-\end{frame}
-
-\begin{frame}{8.11}
-\end{frame}
-
-\begin{frame}{8.12}
-\end{frame}
-
-\begin{frame}{8.13}
-\end{frame}
-
-\begin{frame}{8.14}
+    Multiple-skip holography: Two branches
+    \begin{enumerate}
+        \item $\rho$ decreases as $\theta$ increases
+        \item $\rho$ increases after reaching a minimum as $\theta$
+            continues to increase toward 180$^{\circ}$.
+    \end{enumerate}
 \end{frame}
 
 \begin{frame}{Figure 8}
@@ -481,6 +516,28 @@ $$ \check{H}_{+}(\mathbf{r},z,\nu) =
        % \label{figurelabel}
     \end{figure}
 \end{frame}
+
+\begin{frame}{8.10: Dispersion}
+    In reality, acoustic waves are \emph{significantly} dispersed
+    near the photosphere.
+\end{frame}
+
+\begin{frame}{8.9}
+\end{frame}
+
+\begin{frame}{8.11}
+\end{frame}
+
+\begin{frame}{8.12}
+\end{frame}
+
+\begin{frame}{8.13}
+\end{frame}
+
+\begin{frame}{8.14}
+\end{frame}
+
+
 
 \begin{frame}{Figure 10}
     \begin{figure}

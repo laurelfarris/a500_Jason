@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  6 MAR 2016 15:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 MAR 2016 07:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,57 +1009,90 @@ Package pdftex.def Info: fig_6.png used on input line 414.
 (pdftex.def)             Requested size: 245.83282pt x 135.43515pt.
  [42
 
- <./fig_6.png>] <fig_7.png, id=1122, 933.4875pt x 691.58376pt>
+ <./fig_6.png>] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+]
+<fig_7.png, id=1300, 933.4875pt x 691.58376pt>
 File: fig_7.png Graphic file (type png)
  <use fig_7.png>
-Package pdftex.def Info: fig_7.png used on input line 420.
+Package pdftex.def Info: fig_7.png used on input line 481.
 (pdftex.def)             Requested size: 245.83282pt x 182.11858pt.
- [43
+ [50
 
- <./fig_7.png>] <fig_8.png, id=1150, 684.5575pt x 652.4375pt>
+ <./fig_7.png>] [51
+
+] [52
+
+] <fig_8.png, id=1378, 684.5575pt x 652.4375pt>
 File: fig_8.png Graphic file (type png)
  <use fig_8.png>
-Package pdftex.def Info: fig_8.png used on input line 428.
+Package pdftex.def Info: fig_8.png used on input line 510.
 (pdftex.def)             Requested size: 245.83282pt x 234.2999pt.
 
-Overfull \vbox (1.02678pt too high) detected at line 428
+Overfull \vbox (1.02678pt too high) detected at line 510
  []
 
-[44
+[53
 
- <./fig_8.png>] <fig_9.png, id=1177, 680.5425pt x 679.53876pt>
+ <./fig_8.png>] <fig_9.png, id=1405, 680.5425pt x 679.53876pt>
 File: fig_9.png Graphic file (type png)
 
 <use fig_9.png>
-Package pdftex.def Info: fig_9.png used on input line 436.
+Package pdftex.def Info: fig_9.png used on input line 518.
 (pdftex.def)             Requested size: 245.83282pt x 245.47365pt.
 
-Overfull \vbox (12.20053pt too high) detected at line 436
+Overfull \vbox (12.20053pt too high) detected at line 518
  []
 
-[45
+[54
 
- <./fig_9.png>] <fig_10.png, id=1204, 666.49pt x 647.41875pt>
+ <./fig_9.png>] [55
+
+] [56
+
+] [57
+
+] [58
+
+] [59
+
+] [60
+
+]
+<fig_10.png, id=1585, 666.49pt x 647.41875pt>
 File: fig_10.png Graphic file (type png)
-
-<use fig_10.png>
-Package pdftex.def Info: fig_10.png used on input line 444.
+ <use fig_10.png>
+Package pdftex.def Info: fig_10.png used on input line 548.
 (pdftex.def)             Requested size: 245.83282pt x 238.79039pt.
 
-Overfull \vbox (5.51727pt too high) detected at line 444
+Overfull \vbox (5.51727pt too high) detected at line 548
  []
 
-[46
+[61
 
- <./fig_10.png>] <fig_11.png, id=1231, 773.89125pt x 365.365pt>
+ <./fig_10.png>] <fig_11.png, id=1613, 773.89125pt x 365.365pt>
 File: fig_11.png Graphic file (type png)
 
 <use fig_11.png>
-Package pdftex.def Info: fig_11.png used on input line 452.
+Package pdftex.def Info: fig_11.png used on input line 556.
 (pdftex.def)             Requested size: 245.83282pt x 116.06062pt.
- [47
+ [62
 
- <./fig_11.png>]
+ <./fig_11.png>] [63
+
+]
 \tf@nav=\write6
 \openout6 = `presentation.nav'.
 
@@ -1069,11 +1102,11 @@ Package pdftex.def Info: fig_11.png used on input line 452.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 456.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 456.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 563.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 563.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 456.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 456.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 563.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 563.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1081,13 +1114,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 456.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 563.
  ) 
 Here is how much of TeX's memory you used:
- 16835 strings out of 493089
- 321303 string characters out of 6134842
- 387029 words of memory out of 5000000
- 19817 multiletter control sequences out of 15000+600000
+ 16899 strings out of 493089
+ 321895 string characters out of 6134842
+ 387028 words of memory out of 5000000
+ 19849 multiletter control sequences out of 15000+600000
  13099 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,456b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1109,10 +1142,10 @@ texlive/2015/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb></usr/l
 ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
 
-Output written on presentation.pdf (47 pages, 1332869 bytes).
+Output written on presentation.pdf (63 pages, 1358791 bytes).
 PDF statistics:
- 1335 PDF objects out of 1440 (max. 8388607)
- 1225 compressed objects within 13 object streams
- 95 named destinations out of 1000 (max. 500000)
+ 1749 PDF objects out of 2073 (max. 8388607)
+ 1619 compressed objects within 17 object streams
+ 127 named destinations out of 1000 (max. 500000)
  103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
