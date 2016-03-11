@@ -1,70 +1,106 @@
 \documentclass{beamer}
-\usepackage{verbatim} % For using /begin{comment}; /end{comment}
-%--------------------------------------------------------------%
+\usepackage{verbatim}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
 \usepackage{graphicx}
-\usepackage{mdwlist}
+%\usepackage{mdwlist}
 \usepackage[mathscr]{euscript}
-\usepackage{amssymb}
+%\usepackage{amssymb}
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[square]
 \definecolor{mine}{RGB}{155,155,155}
+\definecolor{fpink}{rgb}{0.99, 0.56, 0.67}
 \definecolor{oj}{rgb}{1.0,0.65,0.0}
 \definecolor{cblue}{rgb}{0.39, 0.58, 0.93}
 \definecolor{turq}{rgb}{0.0, 0.81, 0.82}
-%\usepackage{caption}
-%\captionsetup[figure]{labelformat=empty}
+\definecolor{cgreen}{rgb}{0.0, 0.8, 0.6}
+\definecolor{cpink}{rgb}{0.92, 0.3, 0.26}
 \setlength{\unitlength}{1mm}
 
 \setbeamercolor{normal text}{bg=black, fg=white}
 \setbeamercolor{title}{fg=turq}
-\setbeamercolor{frametitle}{fg=oj}
-\setbeamercolor{block title}{fg=green}
-\setbeamercolor{itemize item}{fg=mine} % all frames will have red bullets
-\setbeamercolor{enumerate item}{fg=mine} % all frames will have red bullets
+\setbeamercolor{frametitle}{fg=cgreen}
+\setbeamercolor{framesubtitle}{fg=cblue}
+%\setbeamercolor{block title}{fg=green}
+\setbeamercolor{itemize item}{fg=fpink}
+\setbeamercolor{itemize subitem}{fg=cpink}
+\setbeamercolor{enumerate item}{fg=fpink}
 
 \usefonttheme{serif}
-\setbeamerfont{frametitle}{series=\bfseries} % Frame titles should be bold
-
-\title{Basic Principles of Solar Acoustic Holography}
-\subtitle{ASTR 500}
-\author{Laurel Farris}
-\date{11 March 2016}
+\setbeamerfont{framesubtitle}{size=\large}
+\setbeamerfont{frametitle}{series=\bfseries}
+%\usepackage{fontspec}
+%\setmainfont{}
 
 \begin{document}
 
 \begin{frame}
-    \titlepage{}
+    \begin{centering}
+    {\Large Basic Principles of Solar Acoustic Holography}
+    {\large\textcolor{cblue}{Laurel Farris}}\\
+    {\large\textcolor{cblue}{ASTR 500}}\\
+    {\textcolor{cblue}{11 March 2016}}\\
+    \end{centering}
+    \vspace{1cm}
     \includegraphics[width=\paperwidth]{starwars.jpg}
 \end{frame}
 
+\begin{comment}
 \begin{frame}{Outline}
-``Basic Principles of Solar Acoustic Holography''\\
-C. Lindsey and D. C. Braun\\
-2000
     \begin{enumerate}
-        \item Introduction
-        \item Basic Principles of Computational Seismic Holography
-        \item The Computational Task
-        \item Subjacent Vantage Holography
-        \item An Example
-        \item Acoustic Modelling Based on Holographic Images
-        \item Phase-Sensitive Holography
-        \item Green's Functions
-        \item Summary
+        \item Basic principles of helioseismic holography
+        \item Historical stuff
+        \item Simple acoustic power holography
+        \item Phase-sensitive holography
+        \item Examples of applications
     \end{enumerate}
 \end{frame}
+\end{comment}
 
-\begin{frame}{The Basic Principle}
-    \textcolor{yellow}{Define \textbf{helioseismic holography} as the
-    \emph{phase-coherent} computational
-    reconstruction of the acoustic field in the solar interior.}
-    Information can be extracted from the \emph{p}-mode power
-    spectrum, and models can be devolped based on these holgraphic
-    signatures.
+\begin{frame}{The Basic Principle of Heliospheric Holography}
+    Defined as the \emph{phase-coherent} computational
+    reconstruction of the acoustic field in the solar interior
+    or far side of the sun.
+\end{frame}
 
-    HOMOGRAPHY $\neq$ MODEL!
+\begin{frame}{Comparison with optics}
+    \begin{itemize}
+        \item Submerged sources in sun $\sim$ things we see
+        \item Photosphere $\sim$ surface of cornea (front of eye)
+    \end{itemize}
+    Both involve refocusing radiation to render stigmatic images
+    that can be sampled over focal surface at any desired depth.
+    \begin{figure}
+        \includegraphics[width=\textwidth]{eye.png}
+    \end{figure}
+\end{frame}
 
-    In this paper:
+\begin{frame}{Historical Note}
+    \begin{itemize}
+        \item Concept proposed in 1975 by Roddier
+        \item Developed over the 1990s by Lindsey and Braun\\
+            $\rightarrow$ Key to locating and examining
+            fine structure in the interior and far side of the sun.
+    \end{itemize}
+    Seismic holography was first applied to helioseismic data from
+    the SOlar Heliospheric Observatory (SOHO).\\
+    ``New'' (1998 - 1999) solar acoustic phenomena:
+    \begin{itemize}
+        \item `acoustic moats' surrounding sunspots
+        \item `acoustic condensations' 10\-20 Mm beneath active regions
+        \item `acoustic glories' surrounding complex active regions
+        \item first helioseismic images of a flare
+    \end{itemize}
+\end{frame}
+%----------------------------------------------------------------%
+\begin{frame}{Motivation}
+    Space weather application $\rightarrow$
+    See flares before they turn to face Earth!
+\end{frame}
+
+%----------------------------------------------------------------%
+\begin{frame}{``Basic Principles of Solar Acoustic Holography''}
+    {C. Lindsey and D. C. Braun; 2000}
     \begin{itemize}
         \item Compare simple acoustic-power to phase-sensitive
         \item Propose ``simple computational principles'' to produce images
@@ -72,54 +108,13 @@ C. Lindsey and D. C. Braun\\
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Drawing on principles in optics and optical holography}
-    \begin{itemize}
-        \item Submerged sources in sun $\sim$ things we see
-        \item Photosphere $\sim$ surface of cornea (front of eye)
-    \end{itemize}
-    Both involve refocusing radiation to render stigmatic images
-    that can be sampled over focal surface at any desired depth.
-
-    Producing \emph{stigmatic images} of the source of the disturbance.
+\begin{frame}{Step 1: Helioseismic observations}
     \begin{figure}
-    \includegraphics[width=\textwidth]{eye.png}
-    \end{figure}
-\end{frame}
-
-\begin{frame}{Historical Note}
-    \begin{itemize}
-        \item Concept proposed in 1975 by Roddier
-        \item Developed over the 1990s by Lindsey and Braun
-            (current authors)
-        \item $\rightarrow$ Key to locating and examining
-        fine structure as deep as possible.
-    \end{itemize}
-    Seismic holography was first applied to helioseismic data from SOHO\@.
-    ``New'' (1998-1999) solar acoustic phenomena:
-    \begin{itemize}
-        \item `acoustic moats' surrounding sunspots
-        \item `acoustic condensations' 10-20 Mm beneath active regions
-        \item `acoustic glories' surrounding complex active regions
-        \item first helioseismic images of a flare
-    \end{itemize}
-    $\rightarrow$ solar cycle dependence of global \emph{p}-modes!
-    (which is $\ldots$ ?)
-\end{frame}
-
-%  THIS GOES ELSEWHERE IN PRESENTATION!
-%Regions of strong magnetic field ($B \sim ?$ G)
-%\emph{reflect} \emph{p}-modes above the acoustic cutoff frequency
-%(x mHz) back into the interior,
-%while the \emph{quiet} sun ($B \sim 10$ G) \emph{absorbs} it.
-%----------------------------------------------------------------%
-\begin{frame}{Computational Seismic Holography}
-    A simple example
-    \begin{figure}
-        \includegraphics[width=0.9\textwidth]{fig_1.pdf}
+        \includegraphics[width=\textwidth]{fig_1.pdf}
     \end{figure}
     \begin{itemize}
         \item Interior sources of acoustic waves
-        \item Pattern of ripples produced on surface
+        \item Pattern of ripples on surface
             directly \emph{above} the sources.
         \item The waves are \emph{absorbed} upon reaching the surface,
             not reflected back down or propagated into atmosphere.
@@ -127,12 +122,11 @@ C. Lindsey and D. C. Braun\\
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Go back in time!}
-    Apply observations to a model that does \emph{not} have any sources
-    (or sinks, or scatters) $\rightarrow$ this region is the ``pupil.''
+\begin{frame}{Step 2: Apply observations to a model}
     \begin{figure}
-        \includegraphics[width=0.8\textwidth]{fig_2.png}
+        \includegraphics[width=\textwidth]{fig_2.png}
     \end{figure}
+    Disturbance now propagating back down.\\
     Consider a ``focal plane'' in the interior, at a depth
     $z_{\textrm{plane}}$.
     \begin{itemize}
@@ -157,28 +151,26 @@ C. Lindsey and D. C. Braun\\
             \end{itemize}
         \column{0.5\paperwidth}
             \begin{itemize}
-                \item c) acoustic \emph{stalactite}
-                \item d) acoustic \emph{stalagmite}
+                \item (b) \& (c) acoustic \emph{stalactites}
+                \item (d) \& (e) acoustic \emph{stalagmites}
             \end{itemize}
     \end{columns}
-\end{frame}
-
-\begin{frame}{Words to accompany previous slide}
-    \begin{itemize}
-        \item Simulation: random acoustic noise in model
-        \item Absorbers confined to infinitely then sheets
-        \item depth diagnostics accomplished by focusing and
-            de-focusing, rather than the appearance or disappearance that
-            would be used in realistic physical models.
-    \end{itemize}
 \end{frame}
 
 %-------------------------------------------------------------------%
 \begin{frame}{The Computational Task}
     Two perspectives:
     \begin{enumerate}
-        \item ``spectral'': wavenumber-frequency
-        \item ``time distance'': space-time (more intuitive)
+        \item ``spectral''
+            \begin{itemize}
+                \item wavenumber-frequency $(k,\nu)$
+                \item (computationally advantageous)
+            \end{itemize}
+        \item ``time distance''
+            \begin{itemize}
+                \item space-time $(x,t)$
+                \item (more intuitive)
+            \end{itemize}
     \end{enumerate}
     Given
     \begin{itemize}
@@ -189,33 +181,41 @@ C. Lindsey and D. C. Braun\\
     can extrapolate the (incomplete) acoustic field in the interior.
 \end{frame}
 
-\begin{frame}{The space-time perspective}
+\begin{frame}{The space-time perspective}{Acoustic \emph{egression}}
     \begin{itemize}
-        \item $\psi(\mathbf{r}',t')$: Actual acoustic field at time $t'$
-            and horizontal location $\mathbf{r}'$.
-        \item $H$: incomplete regression of the acoustic field
+        \item $\psi(\mathbf{r}',t')$: \emph{Actual} acoustic field
+        \item $H$: \emph{incomplete regression} of the acoustic field
             \begin{itemize}
-                \item $H_{+}(\mathbf{r},z,t)$: ``acoustic egression''
-                    disturbance that emanated from the ``focal point''
-                    at $(\mathbf{r},z,t)$ and emerged at the overlying surface
-                    at $(\mathbf{r}',0,t')$.
-                \item $H_{-}$: ``acoustic ingression'', the time reversal
-                    of $H_{+}$; waves converge into the focal point
-                    and contribute to the disturbance.
+                \item $H_{+}(\mathbf{r},z,t)$ ``acoustic egression''\\
+                    ``focal point'' $(\mathbf{r},z,t)$
+                    $\rightarrow$ surface $(\mathbf{r}',0,t')$.
+                \item $H_{-}$ ``acoustic ingression'' (next slide)
             \end{itemize}
     \end{itemize}
     $$ H_{+}(\mathbf{r},z,t) = \int
     \textrm{d}t' \int\limits_{a<|\mathbf{r}-\mathbf{r}'|<b}
     \textrm{d}^{2}r'G_{+}
     (|\mathbf{r}-\mathbf{r}'|,z,t-t')\psi(\mathbf{r}',t')  $$
-    $G_{+}$ - Green's function that expresses how a single transient point
+    \textcolor{yellow}{$G_{+}$} $\rightarrow$
+    Green's function that expresses how a single transient point
     disturbance propagates forward or backward in time between
     $(\mathbf{r}',0,t')$ and $(\mathbf{r},z,t)$.
-    For ingression, replace $G_{+}$ by its time reverse:
+
+    After computing $H_{+}$, square and integrate it to produce an egression
+    power map over the time period in desired range.
+\end{frame}
+
+\begin{frame}{The space-time perspective}{Acoustic \emph{ingression}}
+    $H_{-}$: ``acoustic ingression'', the time reversal
+    of $H_{+}$; waves converge into the focal point
+    and contribute to the disturbance.
+
+    Green's function:
     $$ G_{-}(|\mathbf{r}-\mathbf{r'}|,z,t-t') =
     G_{+}(|\mathbf{r}-\mathbf{r'}|,z,t'-t) $$
 \end{frame}
 
+\begin{comment}
 \begin{frame}
     \begin{picture}(60,40)
         % first circle
@@ -227,14 +227,8 @@ C. Lindsey and D. C. Braun\\
         \put(60,20){\circle{20}}
     \end{picture}
 \end{frame}
-
-\begin{frame}{3.5}
-    After computing $H_{+}$, square and integrate it to produce an egression
-    power map over the time period in desired range.
-    \emph{p}-mode absorption in sunspots has already been confirmed this way!
-    Also other ``new'' features mentioned earlier.
-\end{frame}
-
+\end{comment}
+%-------------------------------------------------------------------%
 \begin{frame}{The wavenumber-frequency perspective}
     \begin{itemize}
         \item $\hat{\psi}(\mathbf{k},\nu)$: Fourier transform of $\psi(\mathbf{r},t)$
@@ -242,76 +236,96 @@ C. Lindsey and D. C. Braun\\
             $G_{+}(|\mathbf{r}|,z,t)$
     \end{itemize}
     Fourier transform of the egression:
-    $$ \hat{H}_{+}(\mathbf{k},z,\nu) = \hat{G}_{+}(|\mathbf{k}|,z,\nu),
+    $$ \hat{H}_{+}(\mathbf{k},z,\nu) = \hat{G}_{+}(|\mathbf{k}|,z,\nu)
      \hat{\psi}(\mathbf{k},\nu) $$
     from the convolution theorem.
      Multiplication is computationally \emph{faster} than convolution, so this
      is the preferred method.
 \end{frame}
-
-\begin{frame}{Can probably leave this out}
-Start getting aberrations; some are easily corrected (e.g.\ spherical
-aberration, distortion, and curvature of field). Some however, are not
-(coma, primary astigmatism, and higher order aberrations) for large
-pupils that are needed to form deep focal planes (deep sources), or
-for imaging the far side of the sun. In this case, the
-aforementationed wavenumber perspective cannot be used.
-\end{frame}
-
-\begin{frame}{Another type of Fourier Transform}
-    Temporal transform only:
+%-------------------------------------------------------------------%
+\begin{frame}{Temporal Fourier Transform}
+    Need large pupils to image deeper focal planes,
+    but this produces coma, primary astigmatism, and higher-order aberrations.
+    $$(\mathbf{r},t) \rightarrow (\mathbf{r},\nu)$$
     $$ \check{H}_{+}(\mathbf{r},z,\nu) =
     \int\limits_{a<|\mathbf{r}-\mathbf{r}'|<b}\textrm{d}^{2}r'\check{G}_{+}
         (|\mathbf{r}-\mathbf{r}'|,z,\nu)\check{\psi}(\mathbf{r}',\nu) $$
 \end{frame}
-
-
 %-------------------------------------------------------------------%
-\begin{frame}{Subjacent Vantage Holography}
-    Previously: ``\emph{Super}jacent vantage Holography''.
-    \emph{Sub}jacent vantage holography is when the inner radius, $a$,
-    of the pupil annulus is much greater than the depth of the focal plane
-    (where the source is). This usually applies to quiet sun areas, whereas
-    the superjacent vantage applies to active regions.
-\end{frame}
+\begin{frame}{Subjacent vs. Superjacent Vantage Holography}
 
+    {\large\textcolor{cblue}{\textbf{Superjacent:}}}
+    \begin{itemize}
+        \item Wave propagated directly \emph{upward} from the source
+            to surface
+        \item applies to active regions.
+    \end{itemize}
+    {\large\textcolor{cblue}{\textbf{Subjacent:}}}
+    \begin{itemize}
+        \item inner radius, $a$, of the pupil annulus is much greater than
+            the depth of the focal plane;
+        \item applies to quiet sun (often the practical choice)
+    \end{itemize}
+\end{frame}
+%-------------------------------------------------------------------%
 \begin{frame}{Subjacent Vantage Holography}
     \begin{figure}
         \includegraphics[width=\textwidth]{fig_4.png}
     \end{figure}
 \end{frame}
-
-\begin{frame}{Needs work}
-    4.2 In contrast to normal optics, the diffraction limit is set by how
-    compact the inner radius is. Get finest diffraction limit by
-    securing waves with the highest spherical harmonic degree,
-    $l$.
-    %$\mathcal{l}$.
-    4.3 (Explains which panels in figure 3 are sub or superjacent)
-    Need to re-order this.
-\end{frame}
-
 %-------------------------------------------------------------------%
-\begin{frame}{Egression power maps}
+\begin{frame}
+    \begin{figure}
+        \includegraphics[width=0.9\textwidth]{fig_3.png}
+    \end{figure}
+    \vspace{-0.25cm}
+    \begin{itemize}
+        \item $a$ = 15 Mm, $b$ = 45 Mm
+        \item (a) \& (b): superjacent
+        \item (c) mixed perspective
+        \item (d), (e), \& (f): predominantly subjacent
+    \end{itemize}
+\end{frame}
+%-------------------------------------------------------------------%
+\begin{comment}
+\begin{frame}{A word about diffraction limits}
+    Waves with highest harmonic degree $l$ (lowest $\rho$)
+    deliver the finest diffraction limit.
+\end{frame}
+\end{comment}
+%-------------------------------------------------------------------%
+\begin{frame}{Egression power maps}{Lindsey and Braun (1998)}
     \begin{columns}
-        \column{0.55\textwidth}
+        \column{0.5\textwidth}
+        Top panels
+        \begin{itemize}
+            \item $\nu$ = 6 mHz ($\Delta\nu$ = 1 mHz)
+            \item model annulus around ``Rorschach'' splotches
+        \end{itemize}
+        Bottom panels
+        \begin{itemize}
+            \item Contrasts between object and surroundings
+        \end{itemize}
+        \textcolor{cpink}{\textbf{All subjacent vantage!}}
+        \column{0.6\textwidth}
         \begin{figure}
-            \vspace{-0.25cm}
-            \includegraphics[width=0.9\textwidth]{fig_5.png}
+            \vspace{-1cm}
+            \includegraphics[width=0.95\textwidth]{fig_5.png}
         \end{figure}
-        \column{0.45\textwidth}
-        stuff
     \end{columns}
 \end{frame}
 
+\begin{comment}
+\begin{frame}{Need more here!}
+\end{frame}
 \begin{frame}{Fundamental limitation}
     As sound speed increases with depth, wavelength
     \emph{increases}, which results in a coarser diffraction limit at
     any frequency.
 \end{frame}
+\end{comment}
 %-------------------------------------------------------------------%
 \begin{frame}{Acoustic Modeling Based on Holographic Images}
-    Applying phase-sensitive holography to models:
     Flexible procedures, such as inversions, would characterize the
     acoustic environment in pysical terms such as:
     \begin{itemize}
@@ -320,19 +334,26 @@ aforementationed wavenumber perspective cannot be used.
         \item refractivity
         \item flow velocity
     \end{itemize}
+    where the last two result from the application of phase-sensitive
+    holography
 \end{frame}
-
-\begin{frame}{Inversions}
+%-------------------------------------------------------------------%
+\begin{comment}
+\begin{frame}{Inversions (need more here)}
+    Fredholm integral:
     $$ \langle|H_{+}(\mathbf{r},z)|^{2}\rangle =
     \int\textrm{d}^{2}\mathbf{r}'\int\textrm{d}z'g^{-1}
     (|\mathbf{r}-\mathbf{r}'|,z,z')S(\mathbf{r}',z') $$
+    Source distribution:
     $$ S(\mathbf{r},z) = \int\textrm{d}^{2}\mathbf{r}'
         \int\textrm{d}z'g^{-1}(|\mathbf{r}-\mathbf{r}'|,z,z')
         \langle |H_{+}(\mathbf{r}',z')|^{2}  \rangle $$
 \end{frame}
-
+\end{comment}
+%-------------------------------------------------------------------%
+\begin{comment}
 \begin{frame}{Phase-Sensitive Holography}
-    Purpose is to incorporate the basic utiilities of optical
+    Purpose is to incorporate the basic utilities of optical
     interferometry into solar interior diagnostics.
     The need for phase-sensitive holography is two-fold:
     \begin{enumerate}
@@ -343,102 +364,103 @@ aforementationed wavenumber perspective cannot be used.
     ``standard acoustic-power holography'' depends on anomalous sources
     and absorbers
 \end{frame}
-
-\begin{frame}{Visualize in terms of a
-    \emph{gedanken experiment} (aka ``thought experiment'').}
+\end{comment}
+%--------------------------------------------------------------------------%
+\begin{frame}{\emph{gedanken} experiment}
     \vspace{-0.25cm}
     \begin{figure}
         \includegraphics[width=\textwidth]{fig_6.png}
     \end{figure}
+    \vspace{-0.25cm}
     \begin{itemize}
         \item Produce waves that travel from right to left, into the
             refractive sample.
     \end{itemize}
 \end{frame}
-
-\begin{frame}
+%--------------------------------------------------------------------------%
+\begin{frame}{\emph{gedanken} experiment}
     \begin{itemize}
-        \item No phase-shift (refractive index of sample is similar to
-            that of the surrounding medium).
+        \item No phase-shift: $\Delta{n} = 0$
         \item Phase-shift:
             \begin{itemize}
                 \item $\Delta{n} = \Delta{c_{s}}/c_{s} \rightarrow$
                     refractive perturbation
                 \item $\Delta{t} \sim a\Delta{n}/c \rightarrow$
-                    time delay ($a$ - characteristic diameter of the sample)
+                    time delay
                 \item $\Delta{\phi} \sim 2\pi\nu a\Delta{n}/c \rightarrow$
                     phase shift
             \end{itemize}
+        where $a$ is the characteristic diameter of the sample.
     \end{itemize}
-\end{frame}
 
-\begin{frame}
     To relate $\Delta\phi$ to $H_{+}$ and $H_{-}$, define the
-    \emph{temporal} Fourier transforms,
-    $ \check{H}_{+}(\mathbf{r},z,\nu)  $
-    and
-    $ \check{H}_{-}(\mathbf{r},z,\nu)  $
-    of
-    $ {H}_{+}(\mathbf{r},z,t)  $
-    and
-    $ {H}_{-}(\mathbf{r},z,t)$.
+    \emph{temporal} Fourier transforms
+    \begin{itemize}
+        \item $ \check{H}_{+}(\mathbf{r},z,\nu)  $
+            $ \leftrightarrow$
+            $ {H}_{+}(\mathbf{r},z,t)  $
+        \item $ \check{H}_{-}(\mathbf{r},z,\nu)  $
+            $ \leftrightarrow$
+            $ {H}_{-}(\mathbf{r},z,t)$.
+    \end{itemize}
     Then
-    $$ \Delta\phi = \textrm{arg}\ldots $$
+    $$ \Delta\phi = \arg\left(\left\langle
+        \check{H}_{+}(\mathbf{r},z,\nu)
+        \check{H}_{-}^{*}(\mathbf{r},z,\nu)
+        \right\rangle
+        _{\Delta\nu}
+        \right) $$
 \end{frame}
-
+%--------------------------------------------------------------------------%
+\begin{comment}
+\begin{frame}{Correlations}
+    Temporal correlation: $$
+    C(\mathbf{r},z,\tau) = \int\textrm{d}t'H_{-}(z,\mathbf{r},t')
+    H_{+}(z,\mathbf{r},t'+\tau) $$
+    Extension of correlation for measuring horizontal flows: $$
+    C(\mathbf{r},z,\mathbf{s},\tau) =
+    \int\textrm{d}t'H_{-}(z,\mathbf{r},t')
+    H_{+}(z,\mathbf{r}+\mathbf{s},t'+\tau) $$
+    $$ \Delta\mathbf{r} = \mathbf{v}\Delta{t} = \mathbf{v}a\Delta{n}/c $$
+    $$ \mathbf{U}(\mathbf{r},z) = \left\langle\check{H}_{-}^{*}
+    (\mathbf{r},z,\nu)\nabla\check{H}_{+}(\mathbf{r},z,\nu)\right\rangle
+    _{\Delta\nu} $$
+\end{frame}
+\end{comment}
+%--------------------------------------------------------------------------%
 \begin{frame}{Green's Functions}
     $$ G_{\pm}(|\mathbf{r}-\mathbf{r}'|,z,t-t') $$
-    Characterizes the acoustics of the solar \emph{model}
-    to which helioseismic observations,
-    $\psi(\mathbf{r}',t')$,
-    are applied to accomplish acoustic regressions.
+    Characterizes the propagation of acoustic disturbances
+    between a surface point,
+    $(\mathbf{r}',0,t')$ and source point, $(\mathbf{r},z,t)$
 
-    Computational is a broad, flexible diagnostic,
-    not intended for any one particular model.
-
-    Outlining intuitive concepts used to fashion Green's Functions
-    appropriate for practical diagnostic applications.
+    These propagations take place in the solar \emph{model}
+    to which helioseismic observations, $\psi(\mathbf{r}',t')$.  are applied.
 \end{frame}
 
-\begin{frame}{8.2}
-    Acoustic formalism:
+\begin{frame}{Dispersionless acoustics}
     \begin{itemize}
-        \item Field, $\psi$ is normalized wrt energy flux
-        \item Solar inteior acoustics (in the absense of sources
-            and sinks) is \emph{time-reversal invariant}
+        \item Pulse propagates in the form of an infintely thin \emph{wavefront}.
+        \item $\mathbf{r}'$ responds with ripple characterized
+            by the same infinitely sharp temporal profile as the source,
+            but properly attenuated.
+        \item The Green's function is invarient with
+            respect to both time and horizontal translation.
     \end{itemize}
-    Given these two conditions, the same Green's functions characterize
-    the propagation both forward and backward in time between surface
-    $(\mathbf{r}',0,t')$ and source $(\mathbf{r},z,t)$
-\end{frame}
-
-\begin{frame}{8.3: Dispersionless acoustics}
-    Pulse propagates in the form of a \emph{wavefront}.
-    Surface location, $\mathbf{r}'$ responds with ripple characterized
-    by the same infinitely sharp temporal profile as the source,
-    but properly attenuated. The Green's function is invarient with
-    respect to both time and horizontal translation.
     $$ G_{+}(|\mathbf{r}-\mathbf{r}'|,z,t-t') =
     \delta\left(t-t'-T\left(|\mathbf{r}-\mathbf{r}'|,z\right)\right)
        f\left(|\mathbf{r}-\mathbf{r}'|,z\right)$$
+       \begin{itemize}
+           \item $T$: travel time
+           \item $f$: amplitude of pulse
+       \end{itemize}
 \end{frame}
 
-\begin{frame}{8.4}
-\end{frame}
-
-\begin{frame}{8.5}
-    $T$ (travel time) and $f$ (amplitude of pulse) both depend
-    strongly on the sound speed variation with depth.
-    Derive $\Gamma$ (optimal optical path) that satisfies
-    Fermat's principle.
-
-    Obtain $T$!
-\end{frame}
-
-\begin{frame}{8.6}
-    Obtain $f$; acoustic flux must be in proportion to solid angle
-    subtended by the optical paths leading to the boundary of the
-    surface element.
+\begin{comment}
+\begin{frame}{Dispersionless acoustics}
+    $$ T(|\mathbf{r}-\mathbf{r}') = \int\limits_{{\Gamma}}\frac{\textrm{d}s}{c} $$
+    $$ f^{2} = \frac{1}{4\pi{c}\cos\alpha}\frac{\sin\theta}{\sin\rho}
+    \frac{\textrm{d}\theta}{\textrm{d}\rho} $$
 
     Acoustic energy flux density: $cf^{2}$
 \end{frame}
@@ -448,49 +470,40 @@ aforementationed wavenumber perspective cannot be used.
         \includegraphics[width=\textwidth]{fig_7.png}
     \end{figure}
 \end{frame}
+\end{comment}
 
-\begin{frame}{8.7}
+%Regions of strong magnetic field ($B \sim ?$ G)
+%\emph{reflect} \emph{p}-modes above the acoustic cutoff frequency
+%(x mHz) back into the interior,
+%while the \emph{quiet} sun ($B \sim 10$ G) \emph{absorbs} it.
+\begin{frame}{Dispersionless acoustics}{Reflected waves}
     \begin{itemize}
-        \item $\nu>5.5$ mHz absorbed by photosphere upon first
-            encounter after leaving source.
-        \item $\nu<4.5$ mHz reflected from the specular
-            (``mirror-like''). In this case the Green's function
-            is characterized by a sum of $n$ components, where
-            each $n$ is a ``skip'', or reflection from the photosphere
-            (include diagram)
+        \item $\nu>5.5$ mHz absorbed by photosphere.
+        \item $\nu<4.5$ mHz reflected from photosphere.\\
+            Green's function is characterized by a sum of $n$ components, where
+            each $n$ is a ``skip'', or reflection from the photosphere.
     \end{itemize}
-\end{frame}
-
-\begin{frame}{8.8}
-    Multiple-skip holography: Two branches
     \begin{enumerate}
-        \item $\rho$ decreases as $\theta$ increases
-        \item $\rho$ increases after reaching a minimum as $\theta$
-            continues to increase toward 180$^{\circ}$.
+        \item subjacent: $\rho$ decreases as $\theta$ increases
+        \item superjacent: $\rho$ increases after reaching a minimum
+            as $\theta$ continues to increase toward 180$^{\circ}$.
     \end{enumerate}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Single-skip holography}
     \begin{figure}
         \includegraphics[width=0.8\textwidth]{fig_8.png}
     \end{figure}
 \end{frame}
-
-\begin{frame}
+\begin{frame}{Two-skip holography}
     \begin{figure}
-        \includegraphics[width=0.8\textwidth]{fig_9.png}
+        \includegraphics[width=0.7\textwidth]{fig_9.png}
     \end{figure}
 \end{frame}
 
 \begin{frame}{Dispersion}
     In reality, acoustic waves are \emph{significantly} dispersed
     near the photosphere.
-\end{frame}
-
-\begin{frame}{8.9}
-\end{frame}
-
-\begin{frame}{8.11}
 \end{frame}
 
 \begin{frame}
@@ -505,26 +518,26 @@ aforementationed wavenumber perspective cannot be used.
     \end{figure}
 \end{frame}
 
-\begin{frame}{8.12}
-\end{frame}
-
-\begin{frame}{8.13}
-\end{frame}
-
-\begin{frame}{8.14}
-\end{frame}
-
 \begin{frame}{Comparison to other techniques}
     \begin{itemize}
         \item time-distance helioseismology
+            (aka.\ tomography)
         \item ring diagram analysis
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Applications}
+    \begin{itemize}
+        \item acoustic glories
+        \item acoustic moats and/or
+        \item confirming $p$-mode absorption in sunspots (p. 267)
     \end{itemize}
 \end{frame}
 
 \begin{frame}{Movie!}
 \end{frame}
 
-\begin{frame}{Summary}
+\begin{frame}{Take-home points}
 \end{frame}
 
 %--------------------------------------------------------------%
