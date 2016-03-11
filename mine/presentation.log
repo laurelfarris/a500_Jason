@@ -1,4 +1,4 @@
-This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.11.14)  11 MAR 2016 12:45
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2015.11.14)  11 MAR 2016 12:51
 entering extended mode
  %&-line parsing enabled.
 **presentation.tex
@@ -729,19 +729,18 @@ File: fig_9.png Graphic file (type png)
  <./fig_9.png>]
 <fig_10.png, id=764, 666.49pt x 647.41875pt>
 File: fig_10.png Graphic file (type png)
- <use fig_10.png> [29
+ <use fig_10.png>
+Overfull \vbox (17.79465pt too high) detected at line 550
+ []
+
+[29
 
  <./fig_10.png>] <fig_11.png, id=791, 773.89125pt x 365.365pt>
 File: fig_11.png Graphic file (type png)
- <use fig_11.png> [30
+
+<use fig_11.png> [30
 
  <./fig_11.png>] [31
-
-] [32
-
-] [33
-
-] [34
 
 ]
 \tf@nav=\write5
@@ -760,10 +759,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 8104 strings out of 256214
- 143299 string characters out of 1916999
+ 8092 strings out of 256214
+ 143194 string characters out of 1916999
  229143 words of memory out of 1500000
- 11056 multiletter control sequences out of 10000+200000
+ 11050 multiletter control sequences out of 10000+200000
  14766 words of font info for 55 fonts, out of 1200000 for 2000
  645 hyphenation exceptions out of 8191
  41i,14n,51p,341b,570s stack positions out of 5000i,500n,6000p,200000b,15000s
@@ -779,9 +778,9 @@ exmf/fonts/type1/bluesky/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/bluesky/cm
 /cmsy6.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsy8.pfb></usr/share/texmf
 /fonts/type1/bluesky/cm/cmti10.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmt
 i12.pfb>
-Output written on presentation.pdf (34 pages, 1461168 bytes).
+Output written on presentation.pdf (31 pages, 1446061 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 131072)
+ 910 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
