@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAR 2016 07:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAR 2016 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,20 +724,20 @@ Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ) (./presentation.aux)
 \openout1 = `presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -803,7 +803,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring OFF on input line 36.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -813,9 +813,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
 
 (./presentation.out) (./presentation.out)
 \@outlinefile=\write5
@@ -846,22 +846,22 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 35.
+LaTeX Info: Redefining \includegraphics on input line 36.
 
 (./presentation.nav) <starwars.jpg, id=13, 770.88pt x 328.5876pt>
 File: starwars.jpg Graphic file (type jpg)
 
 <use starwars.jpg>
-Package pdftex.def Info: starwars.jpg used on input line 46.
+Package pdftex.def Info: starwars.jpg used on input line 47.
 (pdftex.def)             Requested size: 364.19536pt x 155.2384pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 46--46
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 47--47
 [][]  
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 46.
+(Font)              size <5> substituted on input line 47.
 
 [1
 
@@ -869,18 +869,18 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <4> not available
 ars.jpg>] [2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 77.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 76.
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -888,7 +888,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <eye.png, id=71, 698.61pt x 219.82124pt>
 File: eye.png Graphic file (type png)
  <use eye.png>
-Package pdftex.def Info: eye.png used on input line 76.
+Package pdftex.def Info: eye.png used on input line 77.
 (pdftex.def)             Requested size: 307.28987pt x 96.69145pt.
  [3
 
@@ -902,14 +902,14 @@ Package pdftex.def Info: eye.png used on input line 76.
 ] <fig_1.pdf, id=176, 607.26875pt x 265.99374pt>
 File: fig_1.pdf Graphic file (type pdf)
  <use fig_1.pdf>
-Package pdftex.def Info: fig_1.pdf used on input line 123.
+Package pdftex.def Info: fig_1.pdf used on input line 124.
 (pdftex.def)             Requested size: 307.28987pt x 134.59973pt.
  [7
 
  <./fig_1.pdf>] <fig_2.png, id=214, 587.19376pt x 298.11375pt>
 File: fig_2.png Graphic file (type png)
  <use fig_2.png>
-Package pdftex.def Info: fig_2.png used on input line 138.
+Package pdftex.def Info: fig_2.png used on input line 139.
 (pdftex.def)             Requested size: 307.28987pt x 156.00714pt.
 
 [8
@@ -917,7 +917,7 @@ Package pdftex.def Info: fig_2.png used on input line 138.
  <./fig_2.png>] <fig_3.png, id=243, 577.15625pt x 401.5pt>
 File: fig_3.png Graphic file (type png)
  <use fig_3.png>
-Package pdftex.def Info: fig_3.png used on input line 158.
+Package pdftex.def Info: fig_3.png used on input line 159.
 (pdftex.def)             Requested size: 276.559pt x 192.3931pt.
 
 [9
@@ -938,14 +938,14 @@ Package pdftex.def Info: fig_3.png used on input line 158.
 <fig_4.png, id=431, 600.2425pt x 303.1325pt>
 File: fig_4.png Graphic file (type png)
  <use fig_4.png>
-Package pdftex.def Info: fig_4.png used on input line 275.
+Package pdftex.def Info: fig_4.png used on input line 276.
 (pdftex.def)             Requested size: 307.28987pt x 155.1922pt.
  [16
 
  <./fig_4.png>]
 File: fig_3.png Graphic file (type png)
 <use fig_3.png>
-Package pdftex.def Info: fig_3.png used on input line 288.
+Package pdftex.def Info: fig_3.png used on input line 289.
 (pdftex.def)             Requested size: 276.559pt x 192.3931pt.
  [17
 
@@ -953,7 +953,7 @@ Package pdftex.def Info: fig_3.png used on input line 288.
 File: fig_5.png Graphic file (type png)
 
 <use fig_5.png>
-Package pdftex.def Info: fig_5.png used on input line 316.
+Package pdftex.def Info: fig_5.png used on input line 317.
 (pdftex.def)             Requested size: 175.15643pt x 246.43361pt.
  [18
 
@@ -963,7 +963,7 @@ Package pdftex.def Info: fig_5.png used on input line 316.
 <fig_6.png, id=537, 916.42375pt x 504.88625pt>
 File: fig_6.png Graphic file (type png)
  <use fig_6.png>
-Package pdftex.def Info: fig_6.png used on input line 379.
+Package pdftex.def Info: fig_6.png used on input line 380.
 (pdftex.def)             Requested size: 307.28987pt x 169.29393pt.
  [20
 
@@ -979,10 +979,10 @@ Package pdftex.def Info: fig_6.png used on input line 379.
 File: fig_8.png Graphic file (type png)
 
 <use fig_8.png>
-Package pdftex.def Info: fig_8.png used on input line 497.
+Package pdftex.def Info: fig_8.png used on input line 498.
 (pdftex.def)             Requested size: 245.83282pt x 234.2999pt.
 
-Overfull \vbox (1.02678pt too high) detected at line 497
+Overfull \vbox (1.02678pt too high) detected at line 498
  []
 
 [25
@@ -991,7 +991,7 @@ Overfull \vbox (1.02678pt too high) detected at line 497
 File: fig_9.png Graphic file (type png)
 
 <use fig_9.png>
-Package pdftex.def Info: fig_9.png used on input line 502.
+Package pdftex.def Info: fig_9.png used on input line 503.
 (pdftex.def)             Requested size: 215.10196pt x 214.78166pt.
  [26
 
@@ -1001,14 +1001,14 @@ Package pdftex.def Info: fig_9.png used on input line 502.
 <fig_10.png, id=747, 666.49pt x 647.41875pt>
 File: fig_10.png Graphic file (type png)
  <use fig_10.png>
-Package pdftex.def Info: fig_10.png used on input line 513.
+Package pdftex.def Info: fig_10.png used on input line 514.
 (pdftex.def)             Requested size: 245.83282pt x 238.79039pt.
  [28
 
  <./fig_10.png>] <fig_11.png, id=774, 773.89125pt x 365.365pt>
 File: fig_11.png Graphic file (type png)
  <use fig_11.png>
-Package pdftex.def Info: fig_11.png used on input line 519.
+Package pdftex.def Info: fig_11.png used on input line 520.
 (pdftex.def)             Requested size: 307.28987pt x 145.073pt.
  [29
 
@@ -1030,11 +1030,11 @@ Package pdftex.def Info: fig_11.png used on input line 519.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 546.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 546.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 546.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 546.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1042,13 +1042,13 @@ Package rerunfilecheck Info: File `presentation.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 545.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 546.
  ) 
 Here is how much of TeX's memory you used:
- 16726 strings out of 493089
- 319677 string characters out of 6134842
- 387533 words of memory out of 5000000
- 19733 multiletter control sequences out of 15000+600000
+ 16727 strings out of 493089
+ 319689 string characters out of 6134842
+ 387581 words of memory out of 5000000
+ 19734 multiletter control sequences out of 15000+600000
  14422 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,413b,570s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1069,7 +1069,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/20
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on presentation.pdf (33 pages, 1292057 bytes).
+Output written on presentation.pdf (33 pages, 1292010 bytes).
 PDF statistics:
  972 PDF objects out of 1000 (max. 8388607)
  880 compressed objects within 9 object streams
