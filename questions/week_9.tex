@@ -1,8 +1,9 @@
 \documentclass[11pt]{article}
 \usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-
+\pagenumbering{gobble}
 \setlength{\parindent}{0em}
 \setlength{\parskip}{0.5em}
 
@@ -10,16 +11,51 @@
 \chead{ASTR 500 --- Week 9 Questions}
 \rhead{29 April 2016}
 
-% Copy this before editing!!!
 
 \begin{document}
 
 \begin{enumerate}
-    \item \textbf{}
+    \item \textbf{Equations 1.14-1.15 are very important for this
+    topic. First, show that by carrying out the procedure in the
+    paragraph under Eq. 1.15, considering the delta function
+    correlation, that you arrive at the power proportionality stated
+    in the paragraph. Then describe how Fig. 1.8 accurately reflects
+    this scenario. You need only describe the simple mathematics with
+    words $\ldots$ no need to write full equations. But be specific.}
+    
+    The Fourier transform of a delta function (in general) is
+    proportional to the integral of the product of the delta function
+    and an exponential. After integrating, $P(k)$ is equal to the
+    exponential since the integration of the delta function (the
+    correlation function) is 1. Since the correlation function only
+    has one value at $r_{*}$, this corresponds to a single frequency
+    in Fourier space, as shown in figure 1.8.
 
-    \item \textbf{}
+    \item \textbf{Now, consider gamma=2 in Eq. 1.14. Using Eq. 1.15,
+    show in this case that one should expect curves as plotted in Fig
+    1.9. Again, you need only describe the simple mathematics with
+    words $\ldots$ no need to write full equations. But be specific.}
 
-    \item \textbf{}
+    For $\gamma = 2$, the $r$ factors in the integrand cancel, and
+    $P(k) = -\left(\frac{r_{o}}{ik}\right)e^{-ikr} \propto e^{-ikr}$.
+    Thus, as $k$ increases, $P(k)$ should
+    damp out, as shown in figure 1.9.
+
+    \item \textbf{What is the era of recombination? How does Fig. 1.10
+    depict this important era?}
+
+    The era of recombination (more like the era of combination)
+    started at the time after the big bang when the universe had
+    cooled to a temperature low enough for nuclei and electrons
+    to combine and form atoms, around $z \approx 1000$.
+    This is illustrated in figure 1.10, where
+    the mass profile for baryons ``stalls'' between the panel at
+    $z = 1440$ and the one at $z = 848$. This overdensity for the
+    baryons occurred because the combination of atoms removed the
+    pressure on the baryons, but the pressure on photons was unaffected,
+    allowing them to propagate away in the form of the CMB.
+
+
 
 \end{enumerate}
 \end{document}
